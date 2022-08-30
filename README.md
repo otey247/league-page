@@ -1,7 +1,7 @@
 <div align="center">
   <img alt="League Page logo" src="https://storage.googleapis.com/nfl-player-data/League%20Page.png" width="100px" />
 
-  **[(Unofficial) Sleeper League Page Template](https://github.com/nmelhado/league-page/)**
+  **[(Unofficial) Sleeper League Page Template](https://github.com/otey247/league-page/)**
 
 
 Generate a custom league page for your Sleeper fantasy football league in just a few steps
@@ -13,7 +13,7 @@ Generate a custom league page for your Sleeper fantasy football league in just a
 ![League Page demo](https://storage.googleapis.com/nfl-player-data/league-page-demo.png)
 
 <div align="center">
-<a href="https://www.legendsleagueff.com/" style="font-size:2em; text-decoration: underline;" >Live demo</a>
+<a href="https://www.losfootball.com/" style="font-size:2em; text-decoration: underline;" >Live demo</a>
 </div>
 
 <br>
@@ -22,9 +22,9 @@ Generate a custom league page for your Sleeper fantasy football league in just a
 -----------
 <div align="center">
 
-<i>If you and your league like League Page, please consider starring the repo and <b><a href="https://www.buymeacoffee.com/nmelhado" target="_blank">donating</a></b> (and encouraging your league-mates to too!)</i>
+<i>If you and your league like League Page, please consider starring the repo and <b><a href="https://www.buymeacoffee.com/otey247" target="_blank">donating</a></b> (and encouraging your league-mates to too!)</i>
 <br>
-    <a href="https://www.buymeacoffee.com/nmelhado" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 217px !important;" width="217px" height="60px" ></a>
+    <a href="https://www.buymeacoffee.com/otey247" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 217px !important;" width="217px" height="60px" ></a>
 </div>
 
 -----------
@@ -58,7 +58,7 @@ Generate a custom league page for your Sleeper fantasy football league in just a
   - [x] ~~Fix all css issues when actively resizing the window~~
 
 ## Some real-life League Pages
-- [Legends League](https://www.legendsleagueff.com/)
+- [Legends League](https://www.losfootball.com/)
 
 ### Setup your own League Page
 *If you've never touched a line of code, use the [Training Wheels Guide](./TRAINING_WHEELS.md) instead*
@@ -67,7 +67,7 @@ Generate a custom league page for your Sleeper fantasy football league in just a
 ![league ID instructions](https://storage.googleapis.com/nfl-player-data/league_id_instructions.png)
 - Write your homepage text (league intro/bio) `/src/lib/utils/leagueInfo.js` (lines 9-14)
 ![homepage text](https://storage.googleapis.com/nfl-player-data/homepage_text.png)
-- Next, fill out and uncomment (delete the `// ` at the beginning of each line) the managers' object (lines 27 - 92), also located in `/src/lib/utils/leagueInfo.js`, there should be one object for each manager (for assistance, consult the [Training Wheels guide](https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text))
+- Next, fill out and uncomment (delete the `// ` at the beginning of each line) the managers' object (lines 27 - 92), also located in `/src/lib/utils/leagueInfo.js`, there should be one object for each manager (for assistance, consult the [Training Wheels guide](https://github.com/otey247/league-page/blob/master/TRAINING_WHEELS.md#ii-adding-managers-and-changing-the-homepage-text))
 ![manager object](https://storage.googleapis.com/nfl-player-data/managersObj.png)
 ![manager rendering](https://storage.googleapis.com/nfl-player-data/managerRendering.png)
 - Add corresponding images for managers to the `/static/managers/` directory and make the sure the name matches with what was provided above
