@@ -290,7 +290,7 @@
     <p>League payout is structured as follows:</p>
     <ul>
         <li>1st place: ${dues * 10}</li>
-        <li>2nd place: ${dues * 3}$</li>
+        <li>2nd place: ${dues * 3}</li>
         <li>3rd place: ${dues}</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
