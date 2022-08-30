@@ -7,12 +7,12 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Hello sports-fans and welcome to another edition of The Los of Shots Fantasy Football League!</p>
+  <p>It is I, Commissioner Otey, here to lead you once again through a sensational season of fantasy football! I know that you want to, but you do not have to refer to me as Commissioner or Sir, especially not in the condescending voice you use when trying to get beer money off your parents back in the day. </p>
+  <p>But as your loving commissioner I have built us this site to help guide you, teach you, and answer any questions you may have throughout these next 17 weeks and seasons beyond. Think of me as Bill Belichick and you are my baby bird coaching tree. I also rule with a cold, merciless Judge Judy like gavel.</p>
+  <p>There will be no trade-raping or collusion in our precious league. As always, if you have any questions, please submit them in writing and they will be reviewed at the millennial meeting on October 2nd, 2589.</p>
+  <p>Alright everyone, let's have a clean fight. Please continue to bite, punch below the belt, bet tons of shots and let's have a super 2022 season!</p>
+  <p>-Sir Commissioner Otey</p>
 `;
 
 /*   STEP 3   */
