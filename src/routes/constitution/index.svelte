@@ -153,23 +153,22 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>15 Total Players</p>
     
     <p class="underscore">Starters</p>
     <ul>
         <li>QB</li>
         <li>RB</li>
-        <li>RB</li>
-        <li>WR</li>
         <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
+        <li>FLEX (RB/WR)</li>
         <li>FLEX (RB/WR)</li>
         <li>D/ST</li>
         <li>K</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>5 Bench</p>
 
     <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
@@ -240,13 +239,9 @@
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
     <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
-
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <p>The draft order each year will be a snake draft in random order chose by Jackie Otey.</p>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
+    <h3 bind:this={twoTwo}>2.2 Draft Day Trades</h3>
     <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
@@ -257,7 +252,7 @@
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p>At the end of the season the top 8 teams will make the playoffs. The first round of playoffs will commence in week 15. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
@@ -295,9 +290,9 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
+        <li>1st place: ${dues * 10}</li>
+        <li>2nd place: ${dues * 3}$</li>
+        <li>3rd place: ${dues}</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
