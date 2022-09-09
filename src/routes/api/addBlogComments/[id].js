@@ -1,8 +1,8 @@
-import * as contentfulManagement from 'contentful-management';
+import contentful from 'contentful-management'
 
 import { getLeagueUsers } from "$lib/utils/helper";
 
-const client = contentfulManagement.createClient({
+const client = contentful.createClient({
     // This is the access token for this space. Normally you get the token in the Contentful web app
     accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN,
 });
